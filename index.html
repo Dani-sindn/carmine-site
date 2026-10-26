@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>CARMINE — Mira un minuto más</title>
+<meta name="description" content="CARMINE: un universo artístico y editorial que integra pintura, poesía, música, deporte y creatividad." />
+<meta name="theme-color" content="#0c0b0a" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c0b0a'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23b3122e'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300..600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=10" />
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="CARMINE">
+    <span class="brand__word" aria-hidden="true">CARMINE<span class="brand__fill">CARMINE</span></span>
+  </a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#top" data-i18n="nav.home">Inicio</a>
+    <a href="#story" data-i18n="nav.story">Historia</a>
+    <a href="#art" data-i18n="nav.art">Carmine Art</a>
+    <a href="#sport" data-i18n="nav.sport">Carmine Sport</a>
+    <a href="#collections" data-i18n="nav.collections">Colecciones</a>
+    <a href="#contact" data-i18n="nav.contact">Contacto</a>
+  </nav>
+  <div class="nav__tools">
+    <div class="minute" title="Tu minuto" data-i18n-title="minute.label">
+      <svg viewBox="0 0 36 36" aria-hidden="true"><circle class="minute__track" cx="18" cy="18" r="15" /><circle class="minute__bar" cx="18" cy="18" r="15" pathLength="1" /></svg>
+      <span class="minute__t">0:00</span>
+    </div>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="sr" data-i18n="nav.menu">Menú</span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menú">
+    <a href="#top"><i>01</i><span data-i18n="nav.home">Inicio</span></a>
+    <a href="#story"><i>02</i><span data-i18n="nav.story">Historia</span></a>
+    <a href="#art"><i>04</i><span data-i18n="nav.art">Carmine Art</span></a>
+    <a href="#sport"><i>05</i><span data-i18n="nav.sport">Carmine Sport</span></a>
+    <a href="#collections"><i>06</i><span data-i18n="nav.collections">Colecciones</span></a>
+    <a href="#contact"><i>08</i><span data-i18n="nav.contact">Contacto</span></a>
+  </nav>
+</div>
+
+<main id="main">
+
+<!-- 01 — MIRA UN MINUTO MÁS -->
+<section class="hero" id="top">
+  <canvas class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__copy">
+    <p class="kicker" data-i18n="hero.kicker">CARMINE — Arte · Poesía · Música · Deporte</p>
+    <h1 class="hero__title" data-i18n-html="hero.title">Mira un<br><em>minuto más</em></h1>
+  </div>
+  <div class="hero__hint" aria-hidden="true">
+    <span class="hero__ring"><i></i></span>
+    <span><b data-i18n="hero.hint">Mantén presionado sobre la obra</b><small data-i18n="hero.hint2">El color aparece cuando te detienes</small></span>
+  </div>
+  <a class="hero__scroll" href="#story"><span data-i18n="hero.scroll">Desliza</span><i></i></a>
+</section>
+
+<!-- 02 — HISTORIA -->
+<section class="story" id="story" data-seam="paper">
+  <div class="story__sticky">
+    <header class="story__head">
+      <p class="num" data-i18n="story.num">02 — El origen</p>
+      <h2 class="h2" data-i18n-html="story.title">De un niño dibujando a los cinco años a un <em>universo propio</em>.</h2>
+    </header>
+    <div class="story__stage">
+      <svg class="story__svg" viewBox="0 0 768 1024" aria-hidden="true">
+        <defs>
+          <clipPath id="clipPencil"><path d="" /></clipPath>
+          <clipPath id="clipCity"><path d="" /></clipPath>
+          <clipPath id="clipColor"><path d="" /></clipPath>
+          <filter id="mono"><feColorMatrix type="saturate" values="0" /></filter>
+        </defs>
+        <image class="st st--pencil" href="" width="768" height="1024" preserveAspectRatio="xMidYMid slice" clip-path="url(#clipPencil)" filter="url(#mono)" />
+        <image class="st st--city" href="" width="768" height="1024" preserveAspectRatio="xMidYMid slice" clip-path="url(#clipCity)" filter="url(#mono)" />
+        <image class="st st--color" href="" width="768" height="1024" preserveAspectRatio="xMidYMid slice" clip-path="url(#clipColor)" />
+        <g class="st-line"></g>
+        <g class="st-strands"></g>
+      </svg>
+    </div>
+    <ol class="story__text">
+      <li data-ch="0"><span class="story__k"><i>1</i><b data-i18n="story.c1.k">A los cinco años</b></span><p data-i18n="story.c1.t"></p></li>
+      <li data-ch="1"><span class="story__k"><i>2</i><b data-i18n="story.c2.k">La arquitectura</b></span><p data-i18n="story.c2.t"></p></li>
+      <li data-ch="2"><span class="story__k"><i>3</i><b data-i18n="story.c3.k">Nueva York</b></span><p data-i18n="story.c3.t"></p></li>
+      <li data-ch="3"><span class="story__k"><i>4</i><b data-i18n="story.c4.k">CARMINE</b></span><p data-i18n-html="story.c4.t"></p></li>
+    </ol>
+    <div class="story__bar" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<!-- 03 — EXPERIENCIA -->
+<section class="exp sec" id="experience" data-seam="ink">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="exp.num">03 — Experiencia</p>
+      <h2 class="h2" data-i18n-html="exp.title">Mira más <em>cerca</em></h2>
+      <p class="lede" data-i18n="exp.lede"></p>
+    </header>
+    <div class="exp__grid">
+      <div class="loupe-art reveal">
+        <img class="art-img" data-work="ojo" alt="" draggable="false" />
+        <div class="loupe" role="img" aria-label="Lupa">
+          <div class="loupe__lens"></div>
+          <span class="loupe__grip" aria-hidden="true"></span>
+        </div>
+        <div class="loupe__pings" aria-hidden="true"></div>
+      </div>
+      <aside class="finds reveal">
+        <div class="finds__count"><b class="finds__n">0</b><span>/ 5 <em data-i18n="exp.found">encontrados</em></span></div>
+        <ol class="finds__dots" aria-hidden="true"><li></li><li></li><li></li><li></li><li></li></ol>
+        <div class="finds__card" aria-live="polite">
+          <p class="finds__title"></p>
+          <p class="finds__text" data-i18n="exp.empty">Arrastra la lupa sobre la pintura.</p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="cmp">
+      <header class="sec__head sec__head--small reveal">
+        <h3 class="h3" data-i18n-html="cmp.title">Del lápiz <em>al color</em></h3>
+        <p class="lede" data-i18n="cmp.lede"></p>
+      </header>
+      <div class="cmp__frame reveal" style="--x:50%">
+        <img class="art-img" data-work="ave" alt="" draggable="false" />
+        <div class="cmp__pencil"><img class="art-img" data-work="ave" data-variant="line" alt="" draggable="false" /></div>
+        <span class="cmp__lab cmp__lab--l" data-i18n="cmp.pencil">Línea</span>
+        <span class="cmp__lab cmp__lab--r" data-i18n="cmp.color">Color</span>
+        <div class="cmp__line" aria-hidden="true"></div>
+        <button class="cmp__handle" type="button" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-i18n-aria="cmp.handle" aria-label="Comparar lápiz y color">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6" /></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 — CARMINE ART -->
+<section class="art sec" id="art" data-seam="lines">
+  <div class="wrap art__grid">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="art.num">04 — CARMINE ART</p>
+      <h2 class="h2" data-i18n-html="art.title">Arte que se <em>siente</em></h2>
+      <p class="lede" data-i18n="art.lede"></p>
+      <ul class="senses">
+        <li data-i18n="art.s1">Pinturas</li><li data-i18n="art.s2">Dibujos a lápiz</li><li data-i18n="art.s3">Poemas</li><li data-i18n="art.s4">Música</li><li data-i18n="art.s5">Simbolismo</li>
+      </ul>
+    </header>
+    <div class="score reveal">
+      <div class="score__art">
+        <img class="art-img" data-work="sueno" alt="" draggable="false" />
+        <div class="score__scan" aria-hidden="true"></div>
+        <div class="score__sparks" aria-hidden="true"></div>
+      </div>
+      <div class="score__ui">
+        <button class="btn btn--play" type="button" aria-pressed="false">
+          <span class="btn__icon" aria-hidden="true"></span><span class="btn__l" data-i18n="art.play">Escuchar la obra</span>
+        </button>
+        <p class="score__tip" data-i18n="art.tap">O toca la pintura para oír un color.</p>
+        <div class="score__eq" aria-hidden="true"></div>
+      </div>
+      <blockquote class="poem" aria-live="polite"></blockquote>
+      <p class="score__note" data-i18n="art.sound">Sube el volumen.</p>
+    </div>
+  </div>
+  <div class="gal">
+    <div class="wrap gal__head reveal">
+      <h3 class="h3" data-i18n-html="gal.title">La <em>galería</em></h3>
+      <p class="lede" data-i18n="gal.lede"></p>
+      <div class="gal__nav">
+        <button type="button" class="gal__btn" data-dir="-1" data-i18n-aria="gal.prev" aria-label="Anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg></button>
+        <button type="button" class="gal__btn" data-dir="1" data-i18n-aria="gal.next" aria-label="Siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg></button>
+      </div>
+    </div>
+    <ul class="gal__track"></ul>
+  </div>
+</section>
+
+<!-- 05 — CARMINE SPORT -->
+<section class="sport sec" id="sport" data-seam="paper">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="sport.num">05 — CARMINE SPORT</p>
+      <h2 class="h2" data-i18n-html="sport.title">Arte que se <em>vive</em></h2>
+      <p class="lede" data-i18n="sport.lede"></p>
+    </header>
+    <ul class="pillars">
+      <li class="reveal"><i>I</i><b data-i18n="sport.p1"></b><span data-i18n="sport.p1t"></span></li>
+      <li class="reveal"><i>II</i><b data-i18n="sport.p2"></b><span data-i18n="sport.p2t"></span></li>
+      <li class="reveal"><i>III</i><b data-i18n="sport.p3"></b><span data-i18n="sport.p3t"></span></li>
+      <li class="reveal"><i>IV</i><b data-i18n="sport.p4"></b><span data-i18n="sport.p4t"></span></li>
+    </ul>
+    <div class="coloring reveal">
+      <div class="coloring__head">
+        <h3 class="h3" data-i18n="color.title">Termina la obra</h3>
+        <p data-i18n="color.lede"></p>
+      </div>
+      <div class="coloring__page"><svg class="cbook" viewBox="0 0 600 750" role="img" aria-label="CARMINE SPORT"></svg></div>
+      <div class="coloring__tools">
+        <div class="swatches" role="radiogroup" aria-label="Color"></div>
+        <div class="coloring__actions">
+          <button class="btn btn--ghost" type="button" data-act="reset" data-i18n="color.reset">Empezar de nuevo</button>
+          <button class="btn" type="button" data-act="save" data-i18n="color.save">Guardar mi página</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 — COLECCIONES -->
+<section class="col sec" id="collections" data-seam="ink">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="col.num">06 — Colecciones</p>
+      <h2 class="h2" data-i18n-html="col.title">Explora los <em>libros</em></h2>
+      <p class="lede" data-i18n="col.lede"></p>
+    </header>
+    <div class="filters" role="tablist">
+      <button type="button" role="tab" aria-selected="true" data-f="all" data-i18n="col.all">Todos</button>
+      <button type="button" role="tab" aria-selected="false" data-f="art" data-i18n="col.art">Art</button>
+      <button type="button" role="tab" aria-selected="false" data-f="sport" data-i18n="col.sport">Sport</button>
+    </div>
+  </div>
+  <ul class="shelf"></ul>
+</section>
+
+<!-- 07 — CONEXIONES -->
+<section class="con sec" id="connections" data-seam="lines">
+  <div class="wrap con__grid">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="con.num">07 — Conexiones</p>
+      <h2 class="h2" data-i18n-html="con.title">Beyond the <em>Canvas</em></h2>
+      <p class="lede" data-i18n="con.lede"></p>
+      <div class="con__chips" role="tablist"></div>
+    </header>
+    <div class="con__map reveal">
+      <svg class="web" viewBox="0 0 400 400" aria-hidden="true"></svg>
+      <div class="con__card" aria-live="polite">
+        <p class="con__k"></p>
+        <h3 class="con__t"></h3>
+        <p class="con__d"></p>
+        <a class="btn" href="#contact" data-i18n="con.cta">Proponer esta colaboración</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 — CIERRE / CONTACTO -->
+<section class="end sec" id="contact" data-seam="lines">
+  <div class="wrap end__grid">
+    <header class="sec__head reveal">
+      <p class="num" data-i18n="end.num">08 — Cierre</p>
+      <h2 class="h2" data-i18n-html="end.title">El arte continúa <em>contigo</em></h2>
+      <p class="lede" data-i18n="end.lede"></p>
+      <dl class="stats">
+        <div><dt data-stat="time">0:00</dt><dd data-i18n="end.s.time">mirando</dd></div>
+        <div><dt data-stat="details">0/5</dt><dd data-i18n="end.s.details">detalles</dd></div>
+        <div><dt data-stat="notes">0</dt><dd data-i18n="end.s.notes">notas escuchadas</dd></div>
+        <div><dt data-stat="colors">0</dt><dd data-i18n="end.s.colors">colores usados</dd></div>
+      </dl>
+    </header>
+    <div class="postal reveal">
+      <div class="postal__card">
+        <canvas class="postal__canvas" width="1080" height="1350" aria-hidden="true"></canvas>
+        <button class="postal__veil" type="button"><span data-i18n="end.make">Revelar mi postal</span></button>
+      </div>
+      <button class="btn btn--ghost postal__save" type="button" hidden data-i18n="end.save">Guardar postal</button>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <form class="form reveal" novalidate>
+      <h3 class="h3" data-i18n="form.title">Hablemos</h3>
+      <div class="form__tabs" role="radiogroup">
+        <label><input type="radio" name="topic" value="books" checked /><span data-i18n="form.t1">Comprar libros</span></label>
+        <label><input type="radio" name="topic" value="collab" /><span data-i18n="form.t2">Colaboración</span></label>
+        <label><input type="radio" name="topic" value="other" /><span data-i18n="form.t3">Otro</span></label>
+      </div>
+      <div class="form__row">
+        <label class="field"><span data-i18n="form.name">Nombre</span><input name="name" autocomplete="name" required /></label>
+        <label class="field"><span data-i18n="form.email">Email</span><input name="email" type="email" autocomplete="email" required /></label>
+      </div>
+      <label class="field"><span data-i18n="form.msg">Mensaje</span><textarea name="msg" rows="4" required></textarea></label>
+      <div class="form__foot">
+        <button class="btn" type="submit" data-i18n="form.send">Enviar</button>
+        <p class="form__note" aria-live="polite"></p>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p class="foot__word">CARMINE</p>
+    <p class="foot__tag" data-i18n="foot.tag">Mira un minuto más.</p>
+    <p class="foot__rights" data-i18n="foot.rights">© 2026 CARMINE.</p>
+  </div>
+</footer>
+
+<dialog class="sheet" aria-labelledby="sheetTitle">
+  <div class="sheet__in">
+    <button class="sheet__close" type="button" data-i18n-aria="nav.close" aria-label="Cerrar"><span></span><span></span></button>
+    <div class="sheet__top">
+      <div class="sheet__book"></div>
+      <div class="sheet__info">
+        <p class="kicker sheet__kicker"></p>
+        <h3 class="h3" id="sheetTitle"></h3>
+        <p class="sheet__desc"></p>
+        <dl class="sheet__meta">
+          <div><dt data-i18n="book.format">Formato</dt><dd data-i18n="book.tbc">Por confirmar</dd></div>
+          <div><dt data-i18n="book.lang">Idioma</dt><dd data-i18n="book.tbc">Por confirmar</dd></div>
+        </dl>
+        <a class="btn sheet__buy" href="#contact"></a>
+      </div>
+    </div>
+    <p class="sheet__label"><span data-i18n="book.inside">Páginas de muestra</span> <small data-i18n="book.swipe">Desliza las páginas</small></p>
+    <div class="spreads"></div>
+  </div>
+</dialog>
+
+<dialog class="viewer" aria-label="Galería">
+  <button class="sheet__close viewer__close" type="button" data-i18n-aria="nav.close" aria-label="Cerrar"><span></span><span></span></button>
+  <ul class="viewer__track"></ul>
+  <p class="viewer__cap"></p>
+</dialog>
+
+<canvas class="burst" aria-hidden="true"></canvas>
+<div class="toast" role="status" aria-live="polite"><b></b><span></span></div>
+
+<script src="config.js?v=10"></script>
+<script src="main.js?v=10"></script>
+</body>
+</html>
